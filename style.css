@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	overflow: hidden;
+}
+
+/*NavBAr*/
+nav {
+	display: flex;
+
+
+	
+	background-color: black;
+	justify-content: space-around;
+	/*padding: 20px 0;*/
+	height: 50px;
+	align-items: center; /*#padding bisa diganti ini Agar ketengah*/
+	color: white;
+}
+
+nav .logo {
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 3px;  /*#Merenggangkan */
+}
+
+nav ul {
+	display: flex;
+	list-style: none; /*#Agar tidak ada titik2*/
+	width: 45%; /*Agar renggang*/
+	justify-content: space-between;
+
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none; /*#Agar hilang underline*/
+	font-size: 0.8em; /*#Mengecilkan font*/
+}
+
+
+/*Hamburger Menu*/
+.menu-toogle {
+	display: none;
+	flex-direction: column; /*#Turun Kebawah*/
+	height: 20px;
+	justify-content: space-between;
+	position: relative; /*#Non-Static [kebalikan position input*/
+}
+
+.menu-toogle input {
+	position: absolute; /*#Agar ngaturnya gampang*/
+	height: 27px;
+	width: 30px;
+	bottom: -1px;
+	left: -1px;
+	/*width: 40px;
+	height: 28px;
+	left: -5px;
+	top: -3px;*/
+	opacity: 0; /*#Agar transparan*/
+	cursor: pointer; /*#progress; ikon mouse loading*/
+	z-index: 2; /*#Agar checkbox didepan*/ 
+}
+
+.menu-toogle span {
+	display: block;
+	width: 28px;
+	height: 3px;
+	background-color: white;
+	border-radius: 3px;
+	transition: all 0.5s; /*#Efek transition: */
+}
+
+
+/*Hamburger Menu Animation*/
+.menu-toogle span:nth-child(2) { /*#dihitung dari property input*/
+transform-origin: 0 0; /*#Agar porosnya dikir atas*/
+
+}
+
+.menu-toogle span:nth-child(4) { /*#dihitung dari property input*/
+transform-origin: 0 100%; /*#Agar porosnya kanan bawah*/
+
+}
+
+.menu-toogle input:checked ~ span:nth-child(2) { /*#ketika input di check cari ~(Sodara) span anak ke dua*/
+	transform: rotate(45deg) translate(-1px, -1px); /*#hasil dr tranlate; mundur 1 naik 1*/
+	background-color: white;
+
+}
+
+.menu-toogle input:checked ~ span:nth-child(4) { /*#ketika input di check cari ~(Sodara) span anak ke dua*/
+	transform: rotate(-45deg) translate(-1px, 0);
+	background-color: white;
+
+}
+
+.menu-toogle input:checked ~ span:nth-child(3) { /*#ketika input di check cari ~(Sodara) span anak ke dua*/
+	transform: scale(0);
+	opacity: 0;
+}
+
+/*Responsive Breakpoint*/
+
+/*Ukuran tablet*/
+@media screen and (max-width: 768px) { /*#576px utk ukuran mobile */
+	nav ul {
+		width: 50%;
+	}
+} 
+
+/*Ukuran Mobile*/
+@media screen and (max-width: 576px) { /*#576px utk ukuran mobile */
+	.menu-toogle {
+		display: flex;
+	}
+	nav ul {
+		position: absolute; 
+		right: 0;
+		top: 0;
+		width: 80%;
+		height: 100vh; /*#viewport height, jd tinggi layar yg kita lihat*/
+		flex-direction: column; /*#sejejer kebawah*/
+		background-color: black;
+		justify-content: space-evenly; /*#Agar atasnya & bawahnya sama*/
+		align-items: center;
+		z-index: -1; /*#supaya ngumpet*/
+		transform: translateX(100%); /*#agar ngumpet dia kekanan*/
+		transition: all 1s;		
+		opacity: 0;
+	}
+	nav ul.slide{
+		opacity: 1;
+		transform: translateX(0);
+	}
+} 
