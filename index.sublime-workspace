@@ -1,1 +1,360 @@
-
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fon",
+				"font-family\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"FON",
+				"font-family\tproperty"
+			],
+			[
+				"ind",
+				"z-index\tproperty"
+			],
+			[
+				"bo",
+				"border-color\tproperty"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"text",
+				"text-indent\tproperty"
+			],
+			[
+				"ps",
+				"position\tproperty"
+			],
+			[
+				"ba",
+				"background-repeat\tproperty"
+			],
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"ma",
+				"margin-left\tproperty"
+			],
+			[
+				"a",
+				"auto\tmargin"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"pad",
+				"padding-left\tproperty"
+			],
+			[
+				"fo",
+				"font-weight\tproperty"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"fl",
+				"float\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"da",
+				"dashed"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"i",
+				"inline\tdisplay"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"re",
+				"repeat-x\tbackground-repeat"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"bu",
+				"button"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"B",
+				"Bagian2"
+			],
+			[
+				"hr",
+				"hr\tTag"
+			],
+			[
+				"st",
+				"style\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/user/Downloads/belajar/flexbox/Latihan Responsive Navbar/1.html",
+		"/C/Users/user/Downloads/belajar/flexbox/index.html",
+		"/C/Users/user/Downloads/belajar/flexbox/style.css",
+		"/C/Users/user/Downloads/belajar/CSS Dasar/CSS layouting/float.html",
+		"/C/Users/user/Downloads/belajar/CSS Dasar/CSS layouting/float.css",
+		"/C/Users/user/Downloads/belajar/CSS Dasar/CSS layouting/float2.css",
+		"/C/Users/user/Downloads/belajar/CSS Dasar/CSS layouting/float2.html",
+		"/C/Users/user/Downloads/belajar/CSS Dasar/CSS layouting/float3.html",
+		"/C/Users/user/Downloads/belajar/CSS Dasar/CSS layouting/float3.css",
+		"/C/Users/user/Downloads/belajar/CSS Dasar/CSS layouting/cssReset.css",
+		"/C/Users/user/Downloads/belajar/CSS Dasar/CSS layouting/cssReset.html",
+		"/C/Users/user/Downloads/belajar/CSS Dasar/CSS layouting/padding&border.css",
+		"/C/Users/user/Downloads/belajar/CSS Dasar/CSS layouting/padding&border.html",
+		"/C/Users/user/Downloads/belajar/CSS Dasar/CSS layouting/margin.css",
+		"/C/Users/user/Downloads/belajar/CSS Dasar/CSS layouting/margin.html",
+		"/C/Users/user/Downloads/belajar/python/operasi_komparasi.py",
+		"/C/Users/user/Downloads/belajar/python/hi",
+		"/C/Users/user/Downloads/belajar/python/kondisi.py",
+		"/C/Users/user/Downloads/belajar/CSS Dasar/CSS layouting/display.html",
+		"/C/Users/user/Downloads/belajar/CSS Dasar/CSS layouting/dimensi&overflow.html",
+		"/C/Users/user/Downloads/belajar/CSS/text styling.css",
+		"/C/Users/user/Downloads/belajar/CSS/text_styling.html",
+		"/C/Users/user/Downloads/belajar/CSS/selector.css",
+		"/C/Users/user/Downloads/belajar/CSS/selector.html",
+		"/C/Users/user/Downloads/belajar/CSS/Inheritance.css",
+		"/C/Users/user/Downloads/belajar/CSS/Inheritance.html",
+		"/C/Users/user/Downloads/belajar/CSS/pseudo-class.html",
+		"/C/Users/user/Downloads/belajar/CSS/pseudo-class.css",
+		"/C/Users/user/Downloads/belajar/CSS/background.css",
+		"/C/Users/user/Downloads/belajar/CSS/background.html",
+		"/C/Users/user/Downloads/belajar/HTML/CSS/asal.cpp",
+		"/C/Users/user/Downloads/belajar/HTML/latihan7(gambar).html",
+		"/C/Users/user/Downloads/belajar/HTML/latihan9(form).html",
+		"/C/Users/user/Downloads/belajar/HTML/CSS/1fontstyling.html",
+		"/C/Users/user/Downloads/belajar/HTML/CSS/latihan1(penambahancss).html",
+		"/C/Users/user/Downloads/belajar/HTML/daftar.html",
+		"/C/Users/user/Downloads/belajar/HTML/latihan8tabel/latihantabel.html",
+		"/C/Users/user/Downloads/belajar/HTML/latihan8tabel/contoohtml.html",
+		"/C/Users/user/Downloads/belajar/HTML/latihantabel.html",
+		"/C/Users/user/Downloads/belajar/HTML/latihan8(table).html",
+		"/C/Users/user/Downloads/belajar/HTML/table2(complex).html",
+		"/C/Users/user/Downloads/belajar/HTML/tabel3.html",
+		"/C/Users/user/Downloads/belajar/HTML/joko.cpp",
+		"/C/Users/user/Downloads/belajar/HTML/latihan3(paragraph).html",
+		"/C/Users/user/Downloads/belajar/HTML/latihan5(list).html",
+		"/C/Users/user/Downloads/belajar/HTML/latihan6(hyperlink).html",
+		"/C/Users/user/Downloads/belajar/HTML/halaman2.html",
+		"/C/Users/user/Downloads/belajar/HTML/halaman3.html",
+		"/C/Users/user/Downloads/belajar/HTML/latihan4(heading).html",
+		"/C/Users/user/Downloads/belajar/HTML/joni",
+		"/C/Users/user/Downloads/belajar/HTML/heading.html",
+		"/C/Users/user/Downloads/belajar/HTML/heading",
+		"/C/Users/user/Downloads/belajar/HTML/latihan1.html",
+		"/C/Users/user/Downloads/belajar/HTML/latihan1/belajar.html",
+		"/C/Users/user/Downloads/belajar/HTML/g",
+		"/C/Users/user/Downloads/belajar/HTML/latihan2.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
